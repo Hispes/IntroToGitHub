@@ -4,7 +4,8 @@
 
 using namespace std;
 
-bool isValidBase(char base){
+bool isValidBase(char base){ // this need some comments
+
     // The function will determine whether a given character is a valid DNA base. 
     if(base == 'A' || base == 'G' || base == 'C' || base == 'T'){
         return true;
